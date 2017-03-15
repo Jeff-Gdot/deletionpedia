@@ -79,7 +79,6 @@ class Antidelete:
             print 'PROBABLY deleted already...', title
             return
 
-        if not 'porn' in article_text and not 'xxx' in article_text:
             dp_page = Page(self.to, title)
 
             update_page = False
